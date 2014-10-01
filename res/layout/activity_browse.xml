@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context="com.gmail.pemapmodder.nbtbrowser.BrowseActivity" >
+    <ListView android:id="@+id/main_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="100" />
+    <ListView android:id="@+id/main_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="200" />
+</LinearLayout>
